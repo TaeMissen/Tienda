@@ -39,7 +39,7 @@ body {
       left: 0;
       right: 0;
       display: flex;
-      justify-content: center;
+      justify-content: center; /* Corregido */
       z-index: 1000;
 }
 
@@ -58,7 +58,7 @@ body {
 }
 
 .logo-1 {
-      width: 0; /* Confirmar si esto es intencional */
+      width: auto; /* Ajustado */
 }
 
 .logo-2 {
@@ -82,7 +82,9 @@ body {
 }
 
 .social img {
-      margin: 8px 0 0 10px;
+      margin: auto; /* Usar flexbox para centrar podría ser mejor */
+      display: block;
+      width: 70%; /* Ajustado para un mejor escalado */
 }
 
 .menu .navbar ul li {
@@ -115,11 +117,45 @@ body {
 }
 
 .header-content {
-      margin-top:200px;
-      padding-bottom:50px;
+      margin-top: 200px;
+      padding-bottom: 50px;
 }
 
 .slider {
       display: flex;
-      align-items:center;
+      align-items: center;
 }
+
+.slider-txt {
+      margin-left: 85px;
+      width: 50%;
+}
+
+.slider-txt h1 {
+      font-size: 70px;
+      color: #FFFFFF;
+      text-transform: uppercase;
+      font-weight: 800;
+}
+
+.slider-txt p {
+      font-size: 15px;
+      color: #A7A7A7;
+}
+
+ .botones {
+      margin-top: 50px;
+ }
+
+ .btn-1 {
+      display:inline-block;
+      padding:15px 35px;
+      border: 2px solid red;
+      color: #FFFFFF;
+      font-weight:800;
+      letter-spacing:2px;
+      text-transform:uppercase;
+      margin-right:20px;
+      border-radius:50px;
+
+ }
