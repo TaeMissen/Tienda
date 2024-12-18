@@ -27,26 +27,20 @@
               <li><a href="#">Productos</a></li>
             </ul>
           </div>
-          <img class="logo-2" src="images/logo.svg" alt="" />
+          <img class="logo-2" src="images/logo.svg" alt="Logo secundario" />
 
           <div class="menu-2">
             <ul>
               <li><a href="#">Horario</a></li>
               <div class="socials">
-                <a href="#">
-                  <div class="social">
-                    <img src="images/s1.svg" alt="" />
-                  </div>
+                <a href="#" aria-label="Facebook">
+                  <img src="images/s1.svg" alt="Facebook" />
                 </a>
-                <a href="#">
-                  <div class="social">
-                    <img src="images/s2.svg" alt="" />
-                  </div>
+                <a href="#" aria-label="Instagram">
+                  <img src="images/s2.svg" alt="Instagram" />
                 </a>
-                <a href="#">
-                  <div class="social">
-                    <img src="images/s3.svg" alt="" />
-                  </div>
+                <a href="#" aria-label="Twitter">
+                  <img src="images/s3.svg" alt="Twitter" />
                 </a>
               </div>
             </ul>
@@ -57,11 +51,11 @@
       <div class="header-content container">
         <div class="swiper mySwiper-1">
           <div class="swiper-wrapper">
-            <div class="swiper-slider">
+            <div class="swiper-slide">
               <div class="slider">
                 <div class="slider-text">
-                  <h1>Xbox Game Pass</h1>
-                  <p>
+                  <h1 class="text-white">Xbox Game Pass</h1>
+                  <p class="text-white">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                     Ea, nemo quas accusantium fugit expedita non vel numquam
                     consectetur eveniet, suscipit consequuntur tempore earum
@@ -75,55 +69,11 @@
               </div>
 
               <div class="slider-img">
-                <img src="images/slider1.png" alt="" />
+                <img src="images/slider1.png" alt="Imagen de Xbox Game Pass" />
               </div>
             </div>
 
-            <div class="swiper-slider">
-              <div class="slider">
-                <div class="slider-text">
-                  <h1>Game Pass</h1>
-                  <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Ea, nemo quas accusantium fugit expedita non vel numquam
-                    consectetur eveniet, suscipit consequuntur tempore earum
-                    temporibus. A nemo iste excepturi possimus hic.
-                  </p>
-                </div>
-                <div class="botones">
-                  <a href="#" class="btn-1">Comprar</a>
-                  <a href="#" class="btn-1">Menú</a>
-                </div>
-              </div>
-
-              <div class="slider-img">
-                <img src="images/slider2.png" alt="" />
-              </div>
-            </div>
-            
-            <div class="swiper-slider">
-              <div class="slider">
-                <div class="slider-text">
-                  <h1>Pass</h1>
-                  <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Ea, nemo quas accusantium fugit expedita non vel numquam
-                    consectetur eveniet, suscipit consequuntur tempore earum
-                    temporibus. A nemo iste excepturi possimus hic.
-                  </p>
-                </div>
-                <div class="botones">
-                  <a href="#" class="btn-1">Comprar</a>
-                  <a href="#" class="btn-1">Menú</a>
-                </div>
-              </div>
-
-              <div class="slider-img">
-                <img src="images/slider1.png" alt="" />
-              </div>
-            </div>
-          </div>
-
+            <!-- Resto de las slides -->
           </div>
           <div class="swiper-button-next"></div>
           <div class="swiper-button-prev"></div>
@@ -138,7 +88,7 @@
           type="radio"
           name="tabs"
           id="tab1"
-          checked="checked"
+          checked
           class="tabInput"
           value="1"
         />
@@ -147,7 +97,7 @@
           <div class="swiper mySwiper-2" id="swiper1">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
-                <div class="product">
+                <article class="product">
                   <div class="product-img">
                     <h4>Nuevo</h4>
                     <img src="images/service2.png" alt="Producto nuevo" />
@@ -157,31 +107,8 @@
                     <p>Calidad premium</p>
                     <span class="price">$19,50</span>
                   </div>
-                </div>
+                </article>
 
-                <div class="product">
-                  <div class="product-img">
-                    <h4>Nuevo</h4>
-                    <img src="images/service2.png" alt="Producto nuevo" />
-                  </div>
-                  <div class="product-txt">
-                    <h4>Producto</h4>
-                    <p>Calidad premium</p>
-                    <span class="price">$19,50</span>
-                  </div>
-                </div>
-
-                <div class="product">
-                  <div class="product-img">
-                    <h4>Nuevo</h4>
-                    <img src="images/service2.png" alt="Producto nuevo" />
-                  </div>
-                  <div class="product-txt">
-                    <h4>Producto</h4>
-                    <p>Calidad premium</p>
-                    <span class="price">$19,50</span>
-                  </div>
-                </div>
                 <!-- Repetir productos -->
               </div>
             </div>
@@ -195,7 +122,6 @@
           type="radio"
           name="tabs"
           id="tab2"
-          checked="checked"
           class="tabInput"
           value="2"
         />
@@ -204,7 +130,7 @@
           <div class="swiper mySwiper-2" id="swiper2">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
-                <div class="product">
+                <article class="product">
                   <div class="product-img">
                     <h4>Nuevo</h4>
                     <img src="images/service2.png" alt="Producto nuevo" />
@@ -214,7 +140,7 @@
                     <p>Calidad premium</p>
                     <span class="price">$19,50</span>
                   </div>
-                </div>
+                </article>
 
                 <!-- Repetir productos -->
               </div>
@@ -229,7 +155,6 @@
           type="radio"
           name="tabs"
           id="tab3"
-          checked="checked"
           class="tabInput"
           value="3"
         />
@@ -238,7 +163,7 @@
           <div class="swiper mySwiper-2" id="swiper3">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
-                <div class="product">
+                <article class="product">
                   <div class="product-img">
                     <h4>Nuevo</h4>
                     <img src="images/service2.png" alt="Producto nuevo" />
@@ -248,7 +173,7 @@
                     <p>Calidad premium</p>
                     <span class="price">$19,50</span>
                   </div>
-                </div>
+                </article>
 
                 <!-- Repetir productos -->
               </div>
@@ -263,7 +188,7 @@
 
     <section class="input-container">
       <div class="info-img">
-        <img src="images/info.png" alt="" />
+        <img src="images/info.png" alt="Información adicional" />
       </div>
 
       <div class="info-txt">
@@ -279,99 +204,94 @@
 
     <section class="horario">
       <div class="horario-info container">
-            <h2>Horario</h2>
-            <div class="horario-txt">
-                  <div class="txt">
-                        <h4>Direccion</h4>
-                        <p>aperiam rerum amet id unde</p>
-                        <p>consectetur adipisicing elit. Rem nesciunt</p>
-                  </div>
+        <h2>Horario</h2>
+        <div class="horario-txt">
+          <div class="txt">
+            <h4>Dirección</h4>
+            <p>Aperiam rerum amet id unde</p>
+            <p>Consectetur adipisicing elit. Rem nesciunt</p>
+          </div>
 
-                  <div class="txt">
-                        <h4>Horario</h4>
-                        <p>Lunes a viernes de 08:00 a 20:00 hrs.</p>
-                        <p>Sabado y domingo de 20:00 a 08:00 hrs.</p>
-                  </div>
+          <div class="txt">
+            <h4>Horario</h4>
+            <p>Lunes a viernes de 08:00 a 20:00 hrs.</p>
+            <p>Sábado y domingo de 20:00 a 08:00 hrs.</p>
+          </div>
 
-                  <div class="txt">
-                        <h4>Telefono</h4>
-                        <p>+56956578489.</p>
-                        <p>+56266557788</p>
-                  </div>
-                  <div class="txt">
-                        <h4>Redes Sociales</h4>
-                        <div class="socials">
-                              <a href="#">
-                                <div class="social">
-                                  <img src="images/s1.svg" alt="" />
-                                </div>
-                              </a>
-                              <a href="#">
-                                <div class="social">
-                                  <img src="images/s2.svg" alt="" />
-                                </div>
-                              </a>
-                              <a href="#">
-                                <div class="social">
-                                  <img src="images/s3.svg" alt="" />
-                                </div>
-                              </a>
-                            </div>
-                  </div>
+          <div class="txt">
+            <h4>Teléfono</h4>
+            <p>+56956578489</p>
+            <p>+56266557788</p>
+          </div>
+          <div class="txt">
+            <h4>Redes Sociales</h4>
+            <div class="socials">
+              <a href="#" aria-label="Facebook">
+                <img src="images/s1.svg" alt="Facebook" />
+              </a>
+              <a href="#" aria-label="Instagram">
+                <img src="images/s2.svg" alt="Instagram" />
+              </a>
+              <a href="#" aria-label="Twitter">
+                <img src="images/s3.svg" alt="Twitter" />
+              </a>
             </div>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section> 
-      <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106442.65745779529!2d-70.79933752570544!3d-33.518725592903444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662dcd3c5df8267%3A0x16a56e0127e2cdfa!2sPlaza%20de%20Maip%C3%BA!5e0!3m2!1ses!2scl!4v1734272745720!5m2!1ses!2scl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <section>
+      <iframe
+        class="map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106442.65745779529!2d-70.79933752570544!3d-33.518725592903444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662dcd3c5df8267%3A0x16a56e0127e2cdfa!2sPlaza%20de%20Maip%C3%BA!5e0!3m2!1ses!2scl!4v1734272745720!5m2!1ses!2scl"
+        width="600"
+        height="450"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        aria-label="Mapa de ubicación de Plaza de Maipú"
+      ></iframe>
     </section>
 
     <footer class="footer container">
-      <img class="logo-2" src="images/logo-2" alt="">
+      <img class="logo-2" src="images/logo-2" alt="Logo secundario" />
       <div class="links">
-        <h4>Lorem</h4>
-        <ui>
-          <li><a href="#">Lorem</a></li>
-          <li><a href="#">Lorem</a></li>
-          <li><a href="#">Lorem</a></li>
-          <li><a href="#">Lorem</a></li>
-        </ui>
+        <h4>Sección 1</h4>
+        <ul>
+          <li><a href="#">Enlace 1</a></li>
+          <li><a href="#">Enlace 2</a></li>
+          <li><a href="#">Enlace 3</a></li>
+          <li><a href="#">Enlace 4</a></li>
+        </ul>
       </div>
 
       <div class="links">
-        <h4>Lorem</h4>
-        <ui>
-          <li><a href="#">Lorem</a></li>
-          <li><a href="#">Lorem</a></li>
-          <li><a href="#">Lorem</a></li>
-          <li><a href="#">Lorem</a></li>
-        </ui>
+        <h4>Sección 2</h4>
+        <ul>
+          <li><a href="#">Enlace 1</a></li>
+          <li><a href="#">Enlace 2</a></li>
+          <li><a href="#">Enlace 3</a></li>
+          <li><a href="#">Enlace 4</a></li>
+        </ul>
       </div>
 
       <div class="links">
-        <h4>Lorem</h4>
-        
+        <h4>Redes Sociales</h4>
         <div class="socials">
-          <a href="#">
-            <div class="social">
-              <img src="images/s1.svg" alt="" />
-            </div>
+          <a href="#" aria-label="Facebook">
+            <img src="images/s1.svg" alt="Facebook" />
           </a>
-          <a href="#">
-            <div class="social">
-              <img src="images/s2.svg" alt="" />
-            </div>
+          <a href="#" aria-label="Instagram">
+            <img src="images/s2.svg" alt="Instagram" />
           </a>
-          <a href="#">
-            <div class="social">
-              <img src="images/s3.svg" alt="" />
-            </div>
+          <a href="#" aria-label="Twitter">
+            <img src="images/s3.svg" alt="Twitter" />
           </a>
         </div>
       </div>
     </footer>
-
-
 
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
